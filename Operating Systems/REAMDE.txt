@@ -1,0 +1,1 @@
+A linux script written to run under bash. It can be used to lowercase, uppercase or take any SED pattern to change filenames in a given directory using recursion or not.

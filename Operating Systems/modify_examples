@@ -1,0 +1,21 @@
+#!/bin/bash
+
+mkdir PiotrowskiKonradModify 2> /dev/null
+cd PiotrowskiKonradModify
+touch -- plik\ one.txt plik\ -two?.txt -plik\ three!.txt 2> /dev/null
+mkdir folder folder2 folder/subfolder 2> /dev/null
+touch -- folder/file_four.txt folder/-file%\ @five.txt folder/subfolder/file\ ^six.txt folder/subfolder/file\ -seven.txt folder2/plik_eight folder2/-plik\ nine.txt 2> /dev/null
+modify s/plik/file/
+modify -r -u
+modify -r -l FOLDER
+modify -u folder
+modify -l FOLDER2
+echo "This script creates a folder 'PiotrowskiKonradModify' with given files inside and uses 'modify' script to change their names"
+echo
+echo "Firstly I changed all occurences of 'plik' to 'file' using a sed pattern in the parent folder without recursion (so files with 'plik' in folder2 should not change)"
+echo 
+echo "After that I uppercased all files using recursion"
+echo
+echo "Then I lowercased using recursion inside FOLDER and then uppercased it without recursion, so the files in the subfolder should be lowercased"
+echo
+echo "Lastly, I lowercased the files iside FOLDER2"
