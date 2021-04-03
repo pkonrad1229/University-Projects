@@ -1,0 +1,1 @@
+All of the programs have the same functionality but are written used different architectures. They take an 24-bit BMP file and find all positions of appropriate markers. Image markers are black and consist of two arms. A given marker type (in my case type no.2) determines its ratio of width to height (see example_markers.bmp). 
