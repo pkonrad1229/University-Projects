@@ -1,0 +1,55 @@
+{
+  "recipes": [
+    {
+      "id": 2,
+      "name": "omlette",
+      "recipe": "Whisk eggs, water, salt and pepper.,Spray 8-inch (20 cm) non-stick skillet with cooking spray. ...\nWhen eggs are almost set on surface but still look moist, cover half of omelette with filling. ...\nCook for a minute, then slide omelette onto plate.\n(Nutrients per serving as per without filling)",
+      "ingredients": [
+        "egg 2 pcs",
+        "water 0.03 l",
+        "salt 1 pinch"
+      ]
+    },
+    {
+      "name": "pizza",
+      "recipe": "Preheat oven to 500 degrees F (230 degrees C).\nIn a medium bowl, dissolve yeast and sugar in warm water.\nLet stand until creamy, about 10 minutes.\nStir in flour, salt, and oil. Beat until smooth. Let rest for 5 minutes.\nTurn dough out onto a lightly floured surface and pat or roll into a round.\nTransfer crust to a lightly greased pizza pan or baker's peel dusted with cornmeal.\nSpread with desired toppings and bake in preheated oven for 15 to 20 minutes, or until golden brown.\nLet baked pizza cool for 5 minutes before serving.",
+      "ingredients": [
+        "flour 2.5 cups",
+        "salt 1 teaspoon",
+        "olive oil 3 tablespoons",
+        "active dry yeast 0.25 ounce",
+        "egg 1 pcs"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Salmon With Fennel Baked in Parchment",
+      "recipe": "Preheat oven to 350°F (175°C)\nCreate a crease in parchment paper:\nLayer fennel, salmon, fronds, lemon, butter on parchment below the crease:\nFold the parchment over the salmon and secure close:",
+      "ingredients": [
+        "fennel bulb 1 pcs",
+        "butter 2.2 teaspoon"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Chorizo & mozzarella gnocchi bake",
+      "recipe": "Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high.",
+      "ingredients": [
+        "chorizo 300 g",
+        "fresh gnochhi 600 g",
+        "mozarella 25 dg"
+      ],
+      "id": "803fc780-c239-11eb-ac69-7d4a6bb58269"
+    },
+    {
+      "name": "Shrimp Fried Rice",
+      "recipe": "s mentioned, use chilled leftover rice! The dry refrigerator air helps dry the rice a bit, which is why cold leftover rice never tastes as good the next day if you eat it straight, but it’s perfect for frying.\nUse high heat. You don’t need a blazing hot restaurant kitchen stove, just patience to let your pan get hot. A hot pan will help everything fry quickly and help keep ingredients from sticking.\nFry ingredients separately. To keep the ingredients and their flavors from mushing together, cook them separately, yet in the same pan. Start with the protein (in this case the shrimp), cook it until it’s almost done, then remove from the pan, and start cooking the other ingredients—the eggs next, then the rice. Add the protein and eggs back to the rice at the end.\nMinimize stirring. If you want browning, don’t stir. Just spread the rice out in the pan and let the pan do the work.",
+      "ingredients": [
+        "shrimp 0.5 kg",
+        "white rice 250 g",
+        "salt 0.5 teaspoons"
+      ],
+      "id": "b113ee90-c239-11eb-ac69-7d4a6bb58269"
+    }
+  ]
+}
