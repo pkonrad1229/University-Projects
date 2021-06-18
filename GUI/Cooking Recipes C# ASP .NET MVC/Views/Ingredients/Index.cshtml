@@ -1,0 +1,42 @@
+﻿@model Lab2.Models.RecipesList
+
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-secondary">Count ingredients</h2>
+    </div>
+
+    <div class="col-12 border p-3 mt-3">
+        <form asp-action="Result" method="post">
+            @if (Model.List.Count() > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th style="width:  85%">
+                            <label>Recipe</label>
+                        </th>
+
+                        <th style="width:  15%"></th>
+                    </tr>
+                    @foreach (var item in Model.List)
+                    {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        <input name="@item.Name" class="form-control" type="number" />
+                    </td>
+                </tr>
+                    }
+                </table>
+                <input type="submit" name="submitButton" value="Count Ingredients" class="btn btn-primary" />
+            }
+            else
+            {
+                <p>No recipes available.</p>
+            }
+        </form>
+    </div>
+
+
+</div>
